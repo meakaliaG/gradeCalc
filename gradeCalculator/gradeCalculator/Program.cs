@@ -21,30 +21,37 @@
                 if (grades[i] >= 90 && grades[i] < 100)
                 {
                     Console.WriteLine("This grade is an A!");
+                    Console.Write(grades[i] + "\n");
                 }
                 else if (grades[i] == 100)
                 {
                     Console.WriteLine("WOW! A perfect score!");
+                    Console.Write(grades[i] + "\n");
                 }
                 else if (grades[i] >= 80 && grades[i] < 90)
                 {
                     Console.WriteLine("This grade is a B.");
+                    Console.Write(grades[i] + "\n");
                 }
                 else if (grades[i] >= 70 && grades[i] < 80)
                 {
                     Console.WriteLine("This grade is a C.");
+                    Console.Write(grades[i] + "\n");
                 }
                 else if (grades[i] >= 65 && grades[i] < 70)
             {
                     Console.WriteLine("This grade is a D.");
+                    Console.Write(grades[i] + "\n");
                 }
                 else if (grades[i] >= 0 && grades[i] < 65)
                 {
                     Console.WriteLine("This grade is a F.");
+                    Console.Write(grades[i] + "\n");
                 }
                 else
                 {
                     Console.WriteLine("This is out of the range of 0-100. How did that happen you Goose?");
+                    Console.Write(grades[i] + "\n");
                 }
             }
 
